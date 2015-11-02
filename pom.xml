@@ -1,19 +1,11 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <groupId>lt.freeland</groupId>
   <modelVersion>4.0.0</modelVersion>
   <artifactId>DigitalSignerApp</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  
-  <parent>
-		<groupId>lt.dainavospoliklinika</groupId>
-		<artifactId>lt.dainavospoliklinika.parent</artifactId>
-		<version>0.0.8</version>
-	</parent>
+  <packaging>jar</packaging>
 
   <repositories>
-	<repository>
-		<id>dainavospoliklinika.lt</id>
-		<url>https://gw.dainavospoliklinika.lt/svn/repository/</url>
-	</repository>
 	<repository>
         <id>maven-nuxeo</id>
         <name>Maven Nuxeo Repository</name>
